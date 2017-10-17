@@ -1,4 +1,3 @@
-\connect pizza_delorean_dev
 
 CREATE TABLE IF NOT EXISTS pizza (
   id BIGSERIAL PRIMARY KEY,

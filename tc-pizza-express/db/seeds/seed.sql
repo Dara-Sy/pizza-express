@@ -1,0 +1,1 @@
+\i pizza.sql;

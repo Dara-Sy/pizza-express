@@ -73,7 +73,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
   function attachPizzaToPage(res) {
     console.log('attaching');
-    res.data.forEach((pizza) => {
+    res.data.pizzas.forEach((pizza) => {
       const $pizzaName = $('<h3>').html(pizza.flavor);
       pageState.$container.append($('<div>').append($pizzaName).addClass('pizza').on('click', () => goToPizzaInfo(pizza.id)));
     });
@@ -95,13 +95,13 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
   function showSinglePizza(res) {
-    pageState.singlePizzaData = res.data;
+    pageState.singlePizzaData = res.data.pizza;
     const $pizzaDiv = $('<div>').addClass('pizza-info');
-    $pizzaDiv.append($('<h3>').html(res.data.flavor));
-    $pizzaDiv.append($('<p>').html(res.data.description));
-    $pizzaDiv.append($('<span>').addClass('location').html(res.data.location));
+    $pizzaDiv.append($('<h3>').html(res.data.pizza.flavor));
+    $pizzaDiv.append($('<p>').html(res.data.pizza.description));
+    $pizzaDiv.append($('<span>').addClass('location').html(res.data.pizza.location));
     const $buttonDiv = $('<div>').addClass('button-container');
-    $buttonDiv.append($('<span>').html('DELETE').addClass('pizza-button').on('click', () => deletePizza(res.data.id)));
+    $buttonDiv.append($('<span>').html('DELETE').addClass('pizza-button').on('click', () => deletePizza(res.data.pizza.id)));
     $buttonDiv.append($('<span>').html('EDIT').addClass('pizza-button').on('click', () => {
       pageState.currentPage = 'edit';
       updatePage();

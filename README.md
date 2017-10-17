@@ -1,15 +1,15 @@
 # HOMEWORK: PRACTICE WITH MODELS AND CONTROLLERS!!!
 
-Your good friends Doc Brown and Marty McFly have just opened a pizza restaurant: Pizza Express!! However, the developer they hired to build the site left it unfinished. Right now it has the beginning of a server and a front-end, but there's no database attached yet. Oh no!
+Your good friends Lion-O has just opened a pizza restaurant: Pizza Express!! However, the developer they hired to build the site left it unfinished. Right now it has the beginning of a server and a front-end, but there's no database attached yet. Oh no!
 
 Your task is to build out the database, the models, and the controllers. Good luck, Developer!
 
-![marty](./assets/marty-pizza.jpg)
+![marty](./assets/liono.jpg)
 
 ### Setup
 
-- Create a database `pizza_delorean_dev`. You **must** name the database this. Run the migration and seed files.
-- Run `npm install` within `delorean-pizza-express` directory to install all the dependencies. (Note: The app will not work at this point. Your job is to get it working.)
+- Create a database `pizza_tc_dev`. You **must** name your database this in order for things to work later on. Run the migration and seed files -- `psql -d pizza_tc_dev -f [path to file here]`
+- Run `npm install` within `tc-pizza-express` directory to install all the dependencies. (Note: The app will not work at this point. Your job is to get it working.)
 - Fill out `db/config.js`, `models/pizza.js`, `controllers/pizza-controller.js`. Don't copy and paste! We will _know_.
 - Write a comment for **EVERY LINE** of `app.js`, saying what it does. Do the same for `routes/pizza-routes.js`.
 - Put every error you run into in the `errors.md` file.
@@ -25,4 +25,4 @@ Your task is to build out the database, the models, and the controllers. Good lu
 - A pull request created on _this repo_.
 - Completion, comfort, wins, losses, questions... you know the drill.
 
-## This homework is due 🚨 11PM ON MONDAY NIGHT!! 🚨
+## This homework is due 🚨 11PM ON THURSDAY NIGHT!! 🚨
