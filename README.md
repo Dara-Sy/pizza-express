@@ -4,7 +4,7 @@ Your good friends Lion-O has just opened a pizza restaurant: Pizza Express!! How
 
 Your task is to build out the database, the models, and the controllers. Good luck, Developer!
 
-![marty](./assets/liono.jpg)
+![pizza](https://www.hungryhowies.com/sites/default/files/1.png)
 
 ### Setup
 
