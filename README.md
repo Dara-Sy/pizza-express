@@ -1,8 +1,8 @@
 # HOMEWORK: PRACTICE WITH MODELS AND CONTROLLERS!!!
 
-Your good friends Lion-O has just opened a pizza restaurant: Pizza Express!! However, the developer they hired to build the site left it unfinished. Right now it has the beginning of a server and a front-end, but there's no database attached yet. Oh no!
+Your instructors has decided to open a pizza restaurant: Pizza Express!! However, the developer they hired to build the site left it unfinished. Right now it has the beginning of a server, but there's no database attached yet. Oh no!
 
-Your task is to build out the database, the models, and the controllers. Good luck, Developer!
+Your task is to build out the database and the models. Good luck, Developer!
 
 ![pizza](https://www.hungryhowies.com/sites/default/files/1.png)
 
