@@ -6,9 +6,6 @@ const pizzaRoutes = require('./routes/pizza-routes');
 const app = express();
 
 const PORT = process.env.PORT || 3000;
-app.listen(PORT, () => {
-  console.log(`listening on port ${PORT}!`);
-});
 
 app.use(logger('dev'));
 
@@ -17,4 +14,8 @@ app.use(bodyParser.urlencoded({extended: false}));
 
 
 app.use('/pizza', pizzaRoutes);
+
+app.listen(PORT, () => {
+  console.log(`listening on port ${PORT}!`);
+});
 
