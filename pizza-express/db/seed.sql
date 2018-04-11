@@ -1,5 +1,7 @@
 \c pizza_dev
 
+DELETE FROM pizza;
+
 INSERT INTO pizza (flavor, description, location) VALUES
   (
     'Pepperoni',
