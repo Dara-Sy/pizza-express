@@ -1,1 +1,1 @@
-// Write your database object file in here and export it
+// Define your database object in here for pgp
