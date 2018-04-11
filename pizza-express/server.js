@@ -1,7 +1,7 @@
 const express = require('express');
 const logger = require('morgan');
 const bodyParser = require('body-parser');
-const pizzaRoutes = require('./routes/pizza-routes');
+// const pizzaRoutes = require('./routes/pizza-routes');
 
 const app = express();
 
@@ -13,7 +13,7 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({extended: false}));
 
 
-app.use('/pizza', pizzaRoutes);
+// app.use('/pizza', pizzaRoutes);
 
 app.listen(PORT, () => {
   console.log(`listening on port ${PORT}!`);
