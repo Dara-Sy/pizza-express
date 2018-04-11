@@ -1,6 +1,7 @@
 const express = require('express');
 const logger = require('morgan');
 const bodyParser = require('body-parser');
+const pizzaRoutes = require('./routes/pizza-routes');
 
 const app = express();
 
@@ -15,6 +16,5 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({extended: false}));
 
 
-const pizzaRoutes = require('./routes/pizza-routes');
 app.use('/pizza', pizzaRoutes);
 
