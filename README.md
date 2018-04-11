@@ -11,7 +11,6 @@ Your task is to build out the database, the models, and the controllers. Good lu
 - Create a database `pizza_tc_dev`. You **must** name your database this in order for things to work later on. Run the migration and seed files -- `psql -d pizza_tc_dev -f [path to file here]`
 - Run `npm install` within `tc-pizza-express` directory to install all the dependencies. (Note: The app will not work at this point. Your job is to get it working.)
 - Fill out `db/config.js`, `models/pizza.js`, `controllers/pizza-controller.js`. Don't copy and paste! We will _know_.
-- Write a comment for **EVERY LINE** of `app.js`, saying what it does. Do the same for `routes/pizza-routes.js`.
 - Put every error you run into in the `errors.md` file.
 
 ## 🚀 Completion looks like:
