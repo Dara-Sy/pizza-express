@@ -25,8 +25,8 @@ https://docs.google.com/forms/u/1/d/1kVioDytaqOH6x0uBtBD9g5Mkvei4bsl78V8PnTx2RoM
 
 ## 🚀 Completion looks like:
 
-- You have a complete `db/config.js`, `models/pizza.js`, `controllers/pizza-controller.js`.
-- Your `app.js` and `routes/pizza-routes` files have been commented on every line.
+- You have a complete `db/connection.js`, `db/dbConfig.js` `models/pizza.js`.
+- Your `server.js` and `routes/pizza-routes` files have been commented on every line.
 - Your `errors.md` has its errors filled in.
 
 ## 🚀 Your homework submission should include:
