@@ -1,4 +1,4 @@
-# HOMEWORK: PRACTICE WITH MODELS AND CONTROLLERS!!!
+# HOMEWORK: PRACTICE WITH MODELS AND ROUTES!!!
 
 Your instructors has decided to open a pizza restaurant: Pizza Express!! However, the developer they hired to build the site left it unfinished. Right now it has the beginning of a server, but there's no database attached yet. Oh no!
 
