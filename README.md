@@ -25,4 +25,4 @@ Your task is to build out the database, the models, and the controllers. Good lu
 - A pull request created on _this repo_.
 - Completion, comfort, wins, losses, questions... you know the drill.
 
-## This homework is due 🚨 11PM ON THURSDAY NIGHT!! 🚨
+## This homework is due 🚨 11PM ON WEDNESDAY NIGHT!! 🚨
