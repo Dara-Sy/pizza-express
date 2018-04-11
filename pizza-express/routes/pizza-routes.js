@@ -1,13 +1,20 @@
-const express = require('express');
-const pizzaRoutes = express.Router();
+//Make sure to import your models from Pizza.js
 
-const pizzaController = require('../controllers/pizza-controller');
+//import express router here !
 
-pizzaRoutes.get('/', pizzaController.index);
-pizzaRoutes.post('/', pizzaController.create);
 
-pizzaRoutes.get('/:id', pizzaController.show);
-pizzaRoutes.put('/:id', pizzaController.update);
-pizzaRoutes.delete('/:id', pizzaController.destroy);
+// Get all
 
-module.exports = pizzaRoutes;
+
+// Get one
+
+
+// Create
+
+
+// Update
+
+
+// Destroy
+
+//Don't forget to export your module

@@ -1,3 +1,5 @@
+\c pizza_dev
+
 INSERT INTO pizza (flavor, description, location) VALUES
   (
     'Pepperoni',

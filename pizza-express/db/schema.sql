@@ -1,5 +1,8 @@
+\c pizza_dev
 
-CREATE TABLE IF NOT EXISTS pizza (
+DROP TABLE IF EXISTS pizza; 
+
+CREATE TABLE pizza (
   id BIGSERIAL PRIMARY KEY,
   flavor VARCHAR(255),
   description VARCHAR(1024),
