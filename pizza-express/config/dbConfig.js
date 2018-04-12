@@ -1,1 +1,7 @@
-// Define your database object in here for pgp
+module.exports = {
+  host:     'localhost',
+  port:     5432,
+  database: 'pizza_dev',
+};
+
+
